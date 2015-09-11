@@ -1,3 +1,2 @@
-# Lesson-4
-  Button with CSS sprite  
-  AJAX part is not finsished yet!
+# Get-Images is a photo search application that searches Flickr for photos and displays thumbnails of the images on a web page using AJAX.
+ 
