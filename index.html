@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>AJAX Photo Search</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/bubble.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-<form>
-    <input class="button" type="button" value="Press here" title="Sprite button"/>
-    <div class="triangle-isosceles">This is a bubble with an isoceles triangle!!!</div>
-</form>
+<div class="grid-container centered">
+    <div class="grid-100">
+        <div class="contained">
+            <div class="grid-100">
+                <div class="heading">
+                    <h1>Photo Search</h1>
+                    <form>
+                        <label for="search">Type a search term</label>
+                        <input type="search" name="search" id="search">
+                        <input type="submit" value="Search" id="submit">
+                    </form>
+                </div>
+            </div>
+            <ul id="photos">
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
 </html>
