@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title>AJAX Photo Search</title>
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX Photo Search</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round" >
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="grid-container centered">
+
+  <div class="grid-container centered">
     <div class="grid-100">
-        <div class="contained">
-            <div class="grid-100">
-                <div class="heading">
-                    <h1>Photo Search</h1>
-                    <form>
-                        <label for="search">Type a search term</label>
-                        <input type="search" name="search" id="search">
-                        <input type="submit" value="Search" id="submit">
-                    </form>
-                </div>
-            </div>
-            <ul id="photos">
-            </ul>
+      <div class="contained">
+        <div class="grid-100">
+          <div class="heading">
+            <h1>Photo Search</h1>
+            <form form-group>
+              <label for="search">Type a search term</label>
+              <input type="search" class="form-control" name="search" id="search">
+              <input type="submit" value="Search" id="submit">
+            </form>
+          </div>
         </div>
+
+        <ul id="photos"></ul>
+
+      </div>
     </div>
-</div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
